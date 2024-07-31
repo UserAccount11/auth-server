@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: auth-server
+
+server:
+  port: 9000
+
+app:
+  client-url: ${CLIENT_URL}
